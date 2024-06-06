@@ -12,7 +12,9 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.tab{
+  --bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -28,6 +30,19 @@
   color: #61dafb;
 }
 
+.login-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-form {
+  width: 100%;
+  max-width: 430px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
